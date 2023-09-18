@@ -24,6 +24,8 @@ A simple plugin to disable enchanting table.
 disable-enchantingtable: false
 
 # Called when disable-enchantingtable value is true
+# Set false if you don't want send message to player
+use-message: true
 message: "§cEnchanting Table on this server is disabled."
 ```
 
