@@ -1,0 +1,9 @@
+# DisableEnchantingTable Configuration
+
+# Set false if you want the enchanting table to function normally
+disable-enchantingtable: false
+
+# Called when disable-enchantingtable value is true
+# Set false if you don't want send message to player
+use-message: true
+message: "§cEnchanting Table on this server is disabled."

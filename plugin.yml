@@ -1,0 +1,16 @@
+name: DisableEnchantingTable
+api: 5.5.0
+version: 1.0.0
+main: slayerretrun\disableenchantingtable\DisableEnchantingTable
+author: SlayerRetrun Team
+commands:
+  disableenchantingtable:
+    description: Disable Enchanting Table Commands
+    usage: "/disableenchantingtable <true:false>"
+    permission: disableenchantingtable.command
+    aliases:
+      - "disableench"
+      - "det"
+permissions:
+  disableenchantingtable.command:
+    default: op
